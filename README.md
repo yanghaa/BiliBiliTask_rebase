@@ -1,24 +1,24 @@
 <div align="center">
 <h1 align="center">Bilibili助手</h1>
-<img src="https://img.shields.io/github/issues/srcrs/BilibiliTask?color=green">
-<img src="https://img.shields.io/github/stars/srcrs/BilibiliTask?color=yellow">
-<img src="https://img.shields.io/github/forks/srcrs/BilibiliTask?color=orange">
-<img src="https://img.shields.io/github/license/srcrs/BilibiliTask?color=ff69b4">
-<img src="https://img.shields.io/github/search/srcrs/BilibiliTask/main?color=blue">
-<img src="https://img.shields.io/github/v/release/srcrs/BilibiliTask?color=blueviolet">
-<img src="https://img.shields.io/github/languages/code-size/srcrs/BilibiliTask?color=critical">
+<img src="https://img.shields.io/github/issues/yanghaa/BiliBiliTask_rebase?color=green">
+<img src="https://img.shields.io/github/stars/yanghaa/BiliBiliTask_rebase?color=yellow">
+<img src="https://img.shields.io/github/forks/yanghaa/BiliBiliTask_rebase?color=orange">
+<img src="https://img.shields.io/github/license/yanghaa/BiliBiliTask_rebase?color=ff69b4">
+<img src="https://img.shields.io/github/search/yanghaa/BiliBiliTask_rebase/main?color=blue">
+<img src="https://img.shields.io/github/v/release/yanghaa/BiliBiliTask_rebase?color=blueviolet">
+<img src="https://img.shields.io/github/languages/code-size/yanghaa/BiliBiliTask_rebase?color=critical">
 </div>
 
 # 简介
 
-👯✨😄📫
+Rebase From srcrs/BilibiliTask
 
 哔哩哔哩(`B`站)自动完成每日任务，
 投币，点赞，直播签到，自动兑换银瓜子为硬币，自动送出即将过期礼物，漫画`App`签到，大会员领取`B`币卷等。每天获得`65`点经验，助你快速升级到`Lv6`。
 
 开源不易，如果本项目对你有帮助，那么就请给个`star`吧。😄
 
-重要提示，如果收到了`b`站的账号安全通知，可以考虑将`Actions`禁用一段时间，观望一段时间再进行使用，具体禁用步骤，请参考此[Issues](https://github.com/srcrs/BilibiliTask/issues/78)。
+重要提示，如果收到了`b`站的账号安全通知，可以考虑将`Actions`禁用一段时间，观望一段时间再进行使用，具体禁用步骤。
 
 # 功能
 
@@ -67,7 +67,7 @@
 
 ## 1.fork本项目
 
-项目地址：[srcrs/BilibiliTask](https://github.com/srcrs/BilibiliTask)
+项目地址：[yanghaa/BiliBiliTask_rebase](https://github.com/yanghaa/BiliBiliTask_rebase)
 
 ## 2.准备需要的参数
 
@@ -276,10 +276,10 @@ docker run -d --env BILI_JCT=自行填写 --env DEDEUSERID=自行填写 --env SE
 
 ```sh
 $ git remote -v
-origin  https://github.com/cmdcs/BilibiliTask.git (fetch)
-origin  https://github.com/cmdcs/BilibiliTask.git (push)
-upstream  https://github.com/srcrs/BilibiliTask (fetch)
-upstream  https://github.com/srcrs/BilibiliTask (push)
+origin  https://github.com/yanghaa/BiliBiliTask_rebase.git (fetch)
+origin  https://github.com/yanghaa/BiliBiliTask_rebase.git (push)
+upstream  https://github.com/yanghaa/BiliBiliTask_rebase (fetch)
+upstream  https://github.com/yanghaa/BiliBiliTask_rebase (push)
 ```
 
 `origin`是你的仓库地址，`upstream`是你`fork`的源头仓库。通常第一次是没有`upstream`的。
@@ -287,7 +287,7 @@ upstream  https://github.com/srcrs/BilibiliTask (push)
 2、添加源头仓库
 
 ```sh
-git remote add upstream https://github.com/srcrs/BilibiliTask
+git remote add upstream https://github.com/yanghaa/BiliBiliTask_rebase
 ```
 
 3、把上游仓库`main`分支的更新拉取到本地
