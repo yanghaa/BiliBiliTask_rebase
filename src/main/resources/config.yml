@@ -1,5 +1,5 @@
 #每天需要投币的数量 [0,5]。
-coin: 5
+coin: 0
 #送出即将过期礼物 [true,false]
 gift: true
 #银瓜子兑换为硬币 [true,false]
